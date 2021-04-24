@@ -1,0 +1,29 @@
+plugins {
+    id "de.dfki.mary.voicebuilding-legacy"
+}
+
+group 'de.dfki.mary'
+version '0.1.0-SNAPSHOT'
+
+dependencies {
+    marytts group: 'de.serbski-institut', name: 'marytts-lang-hsb', version: '0.1.0-SNAPSHOT'
+}
+
+configurations.all {
+    exclude module: 'groovy-all'
+    resolutionStrategy {
+        dependencySubstitution {
+            substitute module('de.dfki.mary:marytts-lang-hsb') with module("de.serbski-institut:marytts-lang-hsb:0.1.0-SNAPSHOT")
+        }
+    }
+}
+
+marytts {
+    voice {
+        name = 'hsb_poc'
+        gender = 'male'
+        language = 'hsb'
+        type = 'unit selection'
+        samplingRate = 16000
+    }
+}
