@@ -1,4 +1,4 @@
 rootProject.name = 'voice-hsb-poc'
 includeBuild 'gradle-marytts-component-plugin'
-includeBuild '../gradle-marytts-voicebuilding-plugin'
+includeBuild 'gradle-marytts-voicebuilding-plugin'
 includeBuild '../marytts-lang-hsb'
