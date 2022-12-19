@@ -24,3 +24,20 @@ marytts {
         samplingRate = 16000
     }
 }
+
+wav {
+    srcDir = layout.projectDirectory.dir('wav')
+}
+
+basenames {
+    textDir = layout.projectDirectory.dir('text')
+    labDir = layout.projectDirectory.dir('lab')
+}
+
+generateAllophones {
+    srcDir = layout.projectDirectory.dir('text')
+}
+
+processPhoneLabels {
+    srcDir = layout.projectDirectory.dir('lab')
+}
