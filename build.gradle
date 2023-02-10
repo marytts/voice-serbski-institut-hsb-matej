@@ -5,7 +5,7 @@ plugins {
 }
 
 group 'de.dfki.mary'
-version '0.1.0-beta1'
+version '0.1.0-SNAPSHOT'
 
 dependencies {
     marytts group: 'de.dfki.mary', name: 'marytts-lang-hsb', version: '0.1.0'
