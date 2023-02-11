@@ -48,8 +48,8 @@ def downloadDataTask = tasks.register('downloadData') {
 }
 
 flaml {
-    flacFile = downloadDataTask.get().flacFile
-    yamlFile = downloadDataTask.get().yamlFile
+    flacFile = file('serbski-institut-hsb-data/build/serbski-institut-hsb-data.flac')
+    yamlFile = file('serbski-institut-hsb-data/build/serbski-institut-hsb-data.yaml')
 }
 
 extractWavFiles {
