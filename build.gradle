@@ -9,7 +9,7 @@ version '0.1.0-SNAPSHOT'
 
 configurations.all {
     resolutionStrategy {
-        force 'de.dfki.mary:marytts-lang-hsb:0.1.0'
+        force 'de.dfki.mary:marytts-lang-hsb:0.1.1'
     }
 }
 
