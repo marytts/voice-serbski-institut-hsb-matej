@@ -7,13 +7,9 @@ plugins {
 group 'de.dfki.mary'
 version '0.1.0-SNAPSHOT'
 
-dependencies {
-    marytts group: 'de.dfki.mary', name: 'marytts-lang-hsb', version: '0.1.0'
-}
-
 configurations.all {
     resolutionStrategy {
-        force 'de.dfki.mary:marytts-lang-hsb:0.1.0'
+        force 'de.dfki.mary:marytts-lang-hsb:0.1.1'
     }
 }
 
@@ -35,7 +31,7 @@ def downloadDataTask = tasks.register('downloadData') {
     outputs.file flacFile
     outputs.file yamlFile
     doLast {
-        def baseUrl = 'https://github.com/marytts/serbski-institut-hsb-data/releases/download/v0.1.0'
+        def baseUrl = 'https://github.com/marytts/serbski-institut-hsb-data/releases/download/v0.1.1'
         download.run {
             src([
                     "$baseUrl/serbski-institut-hsb-data.flac",
