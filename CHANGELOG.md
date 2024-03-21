@@ -4,6 +4,17 @@ Changelog
 [Unreleased]
 ------------
 
+### Removed
+
+- Component plugin submodule
+
+### Changed
+
+- Build with Gradle v7.6.4
+- Upgraded download plugin to v5.6.0
+- Updated voicebuilding plugin
+- Upgraded language component to v0.1.2
+
 [v0.1.0-beta2] - 2023-02-21
 ---------------------------
 
