@@ -1,8 +1,8 @@
 Changelog
 =========
 
-[Unreleased]
-------------
+[v0.1.0-beta4] - 2024-05-15
+---------------------------
 
 ### Changed
 
@@ -42,7 +42,7 @@ Changelog
 
 Initial pre-release
 
-[Unreleased]: https://github.com/marytts/voice-serbski-institut-hsb-matej
+[v0.1.0-beta4]: https://github.com/marytts/voice-serbski-institut-hsb-matej/releases/tag/v0.1.0-beta4
 [v0.1.0-beta3]: https://github.com/marytts/voice-serbski-institut-hsb-matej/releases/tag/v0.1.0-beta3
 [v0.1.0-beta2]: https://github.com/marytts/voice-serbski-institut-hsb-matej/releases/tag/v0.1.0-beta2
 [v0.1.0-beta1]: https://github.com/marytts/voice-serbski-institut-hsb-matej/releases/tag/v0.1.0-beta1
