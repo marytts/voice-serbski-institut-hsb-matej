@@ -1,3 +1,19 @@
+buildscript {
+    repositories {
+        exclusiveContent {
+            forRepository {
+                maven {
+                    name 'DFKI-MLT'
+                    url 'https://raw.githubusercontent.com/DFKI-MLT/Maven-Repository/main'
+                }
+            }
+            filter {
+                includeGroup 'de.dfki.lt.jtok'
+            }
+        }
+    }
+}
+
 plugins {
     id 'de.undercouch.download' version '5.6.0'
     id 'org.m2ci.msp.flaml' version '0.4.0'
