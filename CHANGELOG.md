@@ -4,6 +4,10 @@ Changelog
 [Unreleased]
 ------------
 
+### Fixed
+
+- JTok dependency resolution
+
 [v0.1.0-beta4] - 2024-05-15
 ---------------------------
 
